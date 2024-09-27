@@ -2,7 +2,7 @@
 layout: page
 title: About
 ---
-I am a M.Sc. student at [Sharif University of Technology](https://sharif.edu). Currently, I am a member of DNS laboratory, and my research is focused on the security and privacy of Machine Learning.
+I am a M.Sc. student at [Sharif University of Technology](https://sharif.edu). Currently, I am a member of the Data and Network Security Laboratory (DNSL), and my research is focused  on the combination of blockchain layer 2 solutions with Internet of Things devices.
 
 I received my bachelor degree from the [Computer and Electrical Engineering department](https://ece.iut.ac.ir/) at [Isfahan University of Technology](http://iut.ac.ir/).
 
@@ -12,4 +12,4 @@ I have a broad interest in the intersection of AI and computer security, includi
 
 #### Research Interests
 
-AI Safety, AI Security, AI for Security, Adversarial Machine Learning, Software Securit, Network Security
+Blockchain, Applied Cryptography, Distributed Systems, Layer 2 Solutions (PCNs), IoT Security/Privacy
