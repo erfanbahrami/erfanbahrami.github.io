@@ -1,8 +1,8 @@
 ---
-layout: archive-education
-permalink: /education/
-title: Education
-type: education
+layout: archive-publications
+permalink: /publications/
+title: Publications
+type: publications
 ---
 
 **Master of Science in Computer Engineering**
