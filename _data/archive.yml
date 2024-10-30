@@ -16,6 +16,9 @@
 - type: teaching
   title: Teaching
   url: /teaching/
+  - type: publication
+  title: Publication
+  url: /publication/
 
 #- type: about
 #  title: About
