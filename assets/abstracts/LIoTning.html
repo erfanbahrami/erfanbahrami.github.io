@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>LIoTning - Abstract | Erfan Bahrami</title>
+</head>
+
+<body style="background-color:#ffffff; font-family: 'Times New Roman', Times, serif;">
+
+<div style="width:780px; margin:40px auto;">
+
+<h2 style="margin-bottom:5px;">
+LIoTning: A Peer-Supervised Payment Channel Approach for Secure Micropayments in IoT Ecosystem
+</h2>
+
+Erfan Bahrami, Amir M. Aghapour, and Morteza Amini<br>
+<i>IEEE Access</i>, 2025
+
+<hr style="margin-top:15px; margin-bottom:20px;">
+
+<b>Abstract</b>
+
+<p style="text-align:justify; line-height:1.6;">
+justify; line-height:1.6;">
+
+The rapid proliferation of the Internet of Things has heightened the demand for efficient, 
+low-cost micropayments to support seamless service provisioning—a requirement fundamentally 
+at odds with the inherent scalability issues of blockchain technology. Digital assets like 
+Bitcoin, despite offering a decentralized and cryptographically secure foundation for the 
+machine-to-machine (M2M) economy, struggle to accommodate high-frequency transactions. 
+While payment channel networks (PCNs) propose an innovative off-chain solution to bypass 
+blockchain bottlenecks, they remain impractical for resource-constrained IoT devices, where 
+stringent storage, memory, and processing restrictions make PCN architectures infeasible.
+Previous studies have attempted to integrate off-chain payments with IoT devices while 
+addressing threats in this domain—particularly broadcasting old states. However, their 
+reliance on third-party entities, software modifications, trusted hardware, or 
+overhead-intensive protocols leaves critical gaps unresolved.
+To bridge this gap, we propose LIoTning, a peer-supervised payment channel protocol with 
+N+2 participants operating under the honest majority assumption: two devices (sender and 
+receiver) and N peers—including resource-efficient IoT devices and blockchain nodes—that 
+collaboratively track and maintain full-state commitment transactions. To minimize storage 
+and communication overhead, each full-state commitment embeds intermediate transactions.
+We formally prove the security of the LIoTning protocol in the Universal Composability (UC) 
+framework, analyze its resilience against broadcasting revoked states, collusion, and ransom 
+attacks, and implement the proposed model to evaluate its performance under different scenarios. 
+Our evaluation results show that the model enables fast payments over low-bandwidth wireless 
+networks. It demonstrates that, with practical parameters, the proposed model can achieve a 
+throughput of at least 200 transactions per second with a network bandwidth of 300 kBps, 
+which is well within the capabilities of IoT devices.
+    
+</p>
+
+<hr style="margin-top:25px;">
+
+<p style="margin-top:30px;">
+    <a href="../../pages/publications.html" style="font-size:18px;">
+        &larr; Back to Publications
+    </a>
+</p>
+
+</div>
+
+</body>
+</html>
