@@ -1,7 +1,9 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Erfan Bahrami</title>
 
     <!-- Font Awesome -->
@@ -11,86 +13,130 @@
     <!-- Academicons -->
     <link rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/academicons@1.9.4/css/academicons.min.css">
+
+    <style>
+        body {
+            background-color: #ffffff;
+        }
+
+        .profile {
+            display: flex;
+            align-items: flex-start;
+            width: 780px;
+            max-width: 100%;
+            gap: 20px;
+        }
+
+        .profile img {
+            height: 250px;
+            width: auto;
+            border: 1px solid #000000;
+            margin-top: 15px;
+        }
+
+        .profile-info h1 {
+            margin-top: 0;
+            margin-bottom: 5px;
+        }
+
+        @media (max-width: 600px) {
+            .profile {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .profile img {
+                margin-top: 0;
+            }
+        }
+    </style>
 </head>
 
-<body style="background-color:#ffffff;">
+<body>
 
-<div style="display:flex; align-items:center; width:780px; gap:20px;">
+<div class="profile">
 
     <img src="assets/images/Erfan.png"
-         alt="Erfan Bahrami"
-         style="height:250px; width:auto; border:1px solid #000000;">
+         alt="Erfan Bahrami">
 
-    <div>
-        <h1 style="margin-bottom:5px;">Erfan Bahrami</h1>
+    <div class="profile-info">
+        <h1>Erfan Bahrami</h1>
 
         Ph.D. Student<br>
+
         <a href="https://www.monash.edu/it/ssc" target="_blank" rel="noopener">
-        Department of Software Systems and Cybersecurity
+            Department of Software Systems and Cybersecurity
         </a><br>
+
         <a href="https://www.monash.edu/it" target="_blank" rel="noopener">
-        Faculty of Information Technology
+            Faculty of Information Technology
         </a><br>
+
         <a href="https://www.monash.edu/" target="_blank" rel="noopener">
-        Monash University
+            Monash University
         </a>, Australia<br><br>
 
         Email:<br>
         erfanbahrami1999 [at] gmail [dot] com<br>
         erfan.bahrami [at] monash [dot] edu<br><br>
-        <a href="https://scholar.google.com/citations?user=MlNa-CkAAAAJ&hl=en" target="_blank">
+
+        <a href="https://scholar.google.com/citations?user=MlNa-CkAAAAJ&hl=en"
+           target="_blank" rel="noopener">
             Google Scholar <i class="fa fa-graduation-cap"></i>
         </a><br>
 
-        <a href="https://www.linkedin.com/in/erfan-bahrami/" target="_blank">
+        <a href="https://www.linkedin.com/in/erfan-bahrami/"
+           target="_blank" rel="noopener">
             LinkedIn <i class="fa-brands fa-linkedin"></i>
         </a><br>
 
-        <a href="https://orcid.org/0009-0005-1917-2640" target="_blank">
+        <a href="https://orcid.org/0009-0005-1917-2640"
+           target="_blank" rel="noopener">
             ORCID <i class="fa-brands fa-orcid"></i>
         </a>
     </div>
 
 </div>
 
-
 <hr>
 
 <p>
-I am currently a Ph.D. student in the 
+I am currently a Ph.D. student in the
 <a href="https://www.monash.edu/it/ssc" target="_blank" rel="noopener">
 Department of Software Systems and Cybersecurity
-</a>, 
+</a>,
 <a href="https://www.monash.edu/it" target="_blank" rel="noopener">
 Faculty of Information Technology
-</a>, 
+</a>,
 <a href="https://www.monash.edu/" target="_blank" rel="noopener">
 Monash University
-</a>, Australia, under the supervision of Prof. 
+</a>, Australia, under the supervision of Prof.
 <a href="https://research.monash.edu/en/persons/amin-sakzad/" target="_blank" rel="noopener">
 Amin Sakzad</a>.
-    <!--
-with internal co-supervision from Prof. 
+
+<!--
+with internal co-supervision from Prof.
 <a href="https://research.monash.edu/en/persons/ron-steinfeld/" target="_blank" rel="noopener">
 Ron Steinfeld</a>
-and external co-supervision from Prof. 
+and external co-supervision from Prof.
 <a href="https://www.julianloss.com/" target="_blank" rel="noopener">
 Julian Loss</a>
-at 
+at
 <a href="https://www.ruhr-uni-bochum.de/en" target="_blank" rel="noopener">
-Ruhr University Bochum (RUB)</a>
-.    
-      -->
-Prior to joining Monash University, I received my M.Sc. in Computer Engineering (Secure Computing) from 
+Ruhr University Bochum (RUB)</a>.
+-->
+
+Prior to joining Monash University, I received my M.Sc. in Computer Engineering (Secure Computing) from
 <a href="https://sharif.edu" target="_blank" rel="noopener">
 Sharif University of Technology
-</a>. 
-I was a member of the Data and Network Security Laboratory (DNSL), under the supervision of Prof. 
+</a>.
+
+I was a member of the Data and Network Security Laboratory (DNSL), under the supervision of Prof.
 <a href="https://sharif.edu/~amini/" target="_blank" rel="noopener">
 Morteza Amini
 </a>.
 
-My master’s thesis focused on combining blockchain Layer-2 solutions with resource-constrained Internet of Things (IoT) devices, and it was selected as an Outstanding and Commendable Master’s Thesis of the Year at the 
+My master’s thesis focused on combining blockchain Layer-2 solutions with resource-constrained Internet of Things (IoT) devices, and it was selected as an Outstanding and Commendable Master’s Thesis of the Year at the
 <a href="https://iscisc2025.sbu.ac.ir/en" target="_blank" rel="noopener">
 International Iranian Society of Cryptology Conference on Information Security and Cryptography (ISCISC)
 </a>.
@@ -107,7 +153,6 @@ International Iranian Society of Cryptology Conference on Information Security a
         ]
     </div>
 </div>
-
 
 </body>
 </html>
